@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Mai Martaba Tex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+    <header>
+     <div style="display: flex;">
+      <img src="images/ChatGPT_Image_Dec_9__2025__04_02_24_PM-removebg-preview.png" alt="logo">
+      <p style="margin-top: 10px; padding-left: 10px;">MAI MARTABA TEX</p>
+    </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="order.html" class="active">Order</a>
+           <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <h2 class="page-title">Place Your Order</h2>
+
+    <section class="order-section">
+
+        <form class="order-form">
+
+            <h3>Order Form</h3>
+
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number:</label>
+            <input type="tel" placeholder="Enter your phone number" required>
+
+            <label>Select Product:</label>
+            <select required>
+                <option value="">-- Select Product --</option>
+                <option>Wool Fabric</option>
+                <option>Poplin Wax</option>
+                <option>Vilsco Wax</option>
+                <option>Longhua Wool</option>
+                <option>Swarovski Lace</option>
+                <option>Bags</option>
+                <option>Bedsheets</option>
+                <option value=""></option>
+            </select>
+
+            <label>Quantity:</label>
+            <input type="number" min="1" placeholder="Enter quantity" required>
+
+            <label>Delivery Address:</label>
+            <textarea rows="4" placeholder="Enter your delivery address" required></textarea>
+
+            <button class="btn"><i class="fa-solid fa-paper-plane"></i> Submit Order</button>
+
+        </form>
+    </section>
+
+</body>
+
+</html>

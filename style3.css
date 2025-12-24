@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+header{
+     display: flex;
+     gap: 10px;
+     justify-content: space-between;
+     padding-top: 10px;
+     padding-bottom:10px;
+     padding-left: 10%;
+      padding-right: 10px;
+     background-color: black;
+     color: white;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 100;
+}
+header img{
+    width: 40px;
+    height: auto;
+}
+
+header .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: .3s ease;
+}
+
+header nav a:hover,
+header nav a.active {
+    color: #ffcc00;
+}
+.page-title {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.order-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.order-form {
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.order-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+.order-form label {
+    font-weight: bold;
+    color: #444;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: border-color .3s ease;
+}
+
+.order-form input:focus,
+.order-form select:focus,
+.order-form textarea:focus {
+    outline: none;
+    border-color: #ff9900;
+}
+
+.btn {
+    width: 100%;
+    background: #ff9900;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: .3s ease;
+}
+
+.btn i {
+    margin-right: 6px;
+}
+
+.btn:hover {
+    background: #cc7a00;
+}
+
+@media (max-width: 600px) {}
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
